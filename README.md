@@ -25,7 +25,7 @@ An AI-powered tool that optimizes your resume for specific job applications usin
     pip install virtualenv
     python -m venv venv
     .\venv\Scripts\activate
-    crewai install
+    install crewai crewai-tools
     ```
 
 ## Environment Setup
@@ -45,8 +45,8 @@ An AI-powered tool that optimizes your resume for specific job applications usin
 ## Quick Start
 
 1. Save your resume as PDF in the project root under the `knowledge/` directory:
-    - Feel free to use the sample resume provided in `knowledge/knowledge/CV_Mohan.pdf`
-    - I got it from [here](https://github.com/FaisalxWattoo/crew-ai-resume-optimization/blob/main/knowledge/Faisal%20Riaz.pdf)
+    - Feel free to use the sample resume provided in `knowledge/Faisal Riaz.pdf`
+    - I got it from locally [here](https://github.com/FaisalxWattoo/crew-ai-resume-optimization/blob/main/knowledge/Faisal%20Riaz.pdf)
 
 2. Fill in the input data in `main.py`:
     - `job_url`: URL of the job posting (e.g., '(https://www.turing.com/jobs/remote-data-engineer)')
