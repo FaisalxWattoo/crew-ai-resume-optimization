@@ -16,14 +16,15 @@ An AI-powered tool that optimizes your resume for specific job applications usin
 1. Clone the repository and install dependencies:
 
     ```bash
-    git clone https://github.com/tonykipkemboi/resume-optimization-crew.git
-    cd resume-optimization-crew
+    git clone https://github.com/FaisalxWattoo/crew-ai-resume-optimization.git
+    cd crew-ai-resume-optimization
     ```
 
 2. Create a virtual environment and install dependencies:
     ```bash
-    python3 -m venv .venv
-    source .venv/bin/active
+    pip install virtualenv
+    python -m venv venv
+    .\venv\Scripts\activate
     crewai install
     ```
 
@@ -45,11 +46,11 @@ An AI-powered tool that optimizes your resume for specific job applications usin
 
 1. Save your resume as PDF in the project root under the `knowledge/` directory:
     - Feel free to use the sample resume provided in `knowledge/knowledge/CV_Mohan.pdf`
-    - I got it from [here](https://www.hbs.edu/doctoral/Documents/job-market/CV_Mohan.pdf)
+    - I got it from [here](https://github.com/FaisalxWattoo/crew-ai-resume-optimization/blob/main/knowledge/Faisal%20Riaz.pdf)
 
 2. Fill in the input data in `main.py`:
-    - `job_url`: URL of the job posting (e.g., 'https://www.mckinsey.com/careers/search-jobs/jobs/associate-15178')
-    - `company_name`: Name of the company (e.g., 'Mckinsey & Co.')
+    - `job_url`: URL of the job posting (e.g., '(https://www.turing.com/jobs/remote-data-engineer)')
+    - `company_name`: Name of the company (e.g., 'Turing')
 
 3. Run the optimization crew:
     ```bash
